@@ -1,0 +1,46 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input,
+button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #646cff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.25s;
+}
+
+button:hover {
+  background-color: #535bf2;
+}
+
+pre {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  text-align: left;
+}
